@@ -1,10 +1,7 @@
-export const Navbar = () => {
+export const Footer = () => {
     return (
         <footer>
             <h1>ACME</h1>
-            <ul>
-                <p>Item</p>
-            </ul>
         </footer>
     );
 };
