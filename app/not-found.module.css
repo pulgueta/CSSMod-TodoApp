@@ -1,0 +1,28 @@
+.viewport {
+    height: calc(100vh - 79px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #f9f0ff;
+}
+
+.go_back_button {
+    padding: 0.5rem 1rem;
+    border-radius: 0.4rem;
+    background-color: #9262fd;
+    color: #F5F5F5;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    outline: #f9f0ff;
+}
+
+.go_back_button:focus-visible {
+    outline: #f9f0ff;
+}
+
+.go_back_button:hover {
+    background-color: #d176ff;
+}

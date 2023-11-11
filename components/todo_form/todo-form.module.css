@@ -1,0 +1,19 @@
+.form_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #d176ff;
+    color: #F5F5F5;
+    border-radius: 0.4rem;
+}
+
+.submit_button {
+    padding: 0.5rem 1rem;
+    border-radius: 0.4rem;
+    background-color: #9262fd;
+    color: #F5F5F5;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
